@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 export default function MovieCard({ movie, isWatchlisted, toggleWatchlist }) {
   const handleError = (e) => {
-    e.target.src = "images/default.jpg";
+    e.target.src = " ";
   };
   const getRatingClass = (rating) => {
     if (rating >= 8) {
